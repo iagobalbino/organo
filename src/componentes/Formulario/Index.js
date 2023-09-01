@@ -1,10 +1,11 @@
 import { useState } from 'react';
 import './Formulario.css'
-import CampoTexto from '../CampoTexto/Index';
-import ListaSuspensa from '../ListaSuspensa/Index';
-import Botao from '../Botao/Index';
+import CampoTexto from '../CampoTexto';
+import ListaSuspensa from '../ListaSuspensa';
+import Botao from '../Botao';
 
 const Formulario = (props) => {
+
   const times = [
     'Programação',
     'Front-End',
