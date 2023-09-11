@@ -1,8 +1,8 @@
-import './Rodape.css';
+import './Footer.css';
 
-const Rodape = () => {
+const Footer = () => {
   return (
-    <footer className='rodape'>
+    <footer className='footer'>
       <div className='redes-sociais'>
         <img src="imagens/fb.png" alt="Facebook" />
         <img src="imagens/tw.png" alt="Twitter" />
@@ -14,4 +14,4 @@ const Rodape = () => {
   );
 };
 
-export default Rodape;
+export default Footer;
